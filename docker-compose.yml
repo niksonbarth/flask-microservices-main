@@ -17,7 +17,7 @@ services:
 
   users-service:
     container_name: users-service
-    build: ./
+    build: https://github.com/niksonbarth/flask-microservices-main.git
     volumes:
       - '.:/usr/src/app'
     ports:
